@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow: auto;
+}
+
+.sectionContainer {
+  align-items: start;
+  justify-content: start;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.commentContainer {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.usernameContainer {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+
+.replyCta {
+  color: black;
+}
+
+.actionPanel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.actionPanel i {
+  padding: 6px;
+}
+
+.actionPanel i:hover {
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+
+.actionPanel button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.actionPanel button:hover {
+  background-color: lightgray;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.likesContainer {
+  position: relative;
+}
+
+.likeItem {
+  position: absolute;
+  top: 40px;
+  background-color: gray;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.repliesCta {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  color: #065fd4;
+}
+
+.replies button:hover {
+  background-color: lightskyblue;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
